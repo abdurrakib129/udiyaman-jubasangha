@@ -560,7 +560,7 @@ nav {
     animation: fadeInDown 1s ease;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
-    background: linear-gradient(to right, #ffffff, #e0e0e0);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
