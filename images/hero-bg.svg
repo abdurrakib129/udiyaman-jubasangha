@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#121212;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1e1e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#grad1)" />
+  
+  <!-- Abstract Shapes -->
+  <circle cx="200" cy="150" r="100" fill="#6a3de8" opacity="0.1" />
+  <circle cx="1000" cy="450" r="150" fill="#6a3de8" opacity="0.1" />
+  <circle cx="600" cy="300" r="200" fill="#6a3de8" opacity="0.05" />
+  
+  <!-- Decorative Lines -->
+  <path d="M0 100 Q 300 300, 600 200 T 1200 300" stroke="#6a3de8" stroke-width="2" fill="none" opacity="0.2" />
+  <path d="M0 300 Q 300 500, 600 400 T 1200 500" stroke="#6a3de8" stroke-width="2" fill="none" opacity="0.2" />
+  <path d="M0 500 Q 300 100, 600 300 T 1200 100" stroke="#6a3de8" stroke-width="2" fill="none" opacity="0.2" />
+  
+  <!-- Dots Pattern -->
+  <g opacity="0.3">
+    <circle cx="100" cy="100" r="2" fill="#ffffff" />
+    <circle cx="150" cy="150" r="2" fill="#ffffff" />
+    <circle cx="200" cy="100" r="2" fill="#ffffff" />
+    <circle cx="250" cy="150" r="2" fill="#ffffff" />
+    <circle cx="300" cy="100" r="2" fill="#ffffff" />
+    <circle cx="350" cy="150" r="2" fill="#ffffff" />
+    <circle cx="400" cy="100" r="2" fill="#ffffff" />
+    <circle cx="450" cy="150" r="2" fill="#ffffff" />
+    <circle cx="500" cy="100" r="2" fill="#ffffff" />
+    <circle cx="550" cy="150" r="2" fill="#ffffff" />
+    <circle cx="600" cy="100" r="2" fill="#ffffff" />
+    <circle cx="650" cy="150" r="2" fill="#ffffff" />
+    <circle cx="700" cy="100" r="2" fill="#ffffff" />
+    <circle cx="750" cy="150" r="2" fill="#ffffff" />
+    <circle cx="800" cy="100" r="2" fill="#ffffff" />
+    <circle cx="850" cy="150" r="2" fill="#ffffff" />
+    <circle cx="900" cy="100" r="2" fill="#ffffff" />
+    <circle cx="950" cy="150" r="2" fill="#ffffff" />
+    <circle cx="1000" cy="100" r="2" fill="#ffffff" />
+    <circle cx="1050" cy="150" r="2" fill="#ffffff" />
+    <circle cx="1100" cy="100" r="2" fill="#ffffff" />
+    <circle cx="1150" cy="150" r="2" fill="#ffffff" />
+    
+    <circle cx="100" cy="200" r="2" fill="#ffffff" />
+    <circle cx="150" cy="250" r="2" fill="#ffffff" />
+    <circle cx="200" cy="200" r="2" fill="#ffffff" />
+    <circle cx="250" cy="250" r="2" fill="#ffffff" />
+    <circle cx="300" cy="200" r="2" fill="#ffffff" />
+    <circle cx="350" cy="250" r="2" fill="#ffffff" />
+    <circle cx="400" cy="200" r="2" fill="#ffffff" />
+    <circle cx="450" cy="250" r="2" fill="#ffffff" />
+    <circle cx="500" cy="200" r="2" fill="#ffffff" />
+    <circle cx="550" cy="250" r="2" fill="#ffffff" />
+    <circle cx="600" cy="200" r="2" fill="#ffffff" />
+    <circle cx="650" cy="250" r="2" fill="#ffffff" />
+    <circle cx="700" cy="200" r="2" fill="#ffffff" />
+    <circle cx="750" cy="250" r="2" fill="#ffffff" />
+    <circle cx="800" cy="200" r="2" fill="#ffffff" />
+    <circle cx="850" cy="250" r="2" fill="#ffffff" />
+    <circle cx="900" cy="200" r="2" fill="#ffffff" />
+    <circle cx="950" cy="250" r="2" fill="#ffffff" />
+    <circle cx="1000" cy="200" r="2" fill="#ffffff" />
+    <circle cx="1050" cy="250" r="2" fill="#ffffff" />
+    <circle cx="1100" cy="200" r="2" fill="#ffffff" />
+    <circle cx="1150" cy="250" r="2" fill="#ffffff" />
+    
+    <circle cx="100" cy="300" r="2" fill="#ffffff" />
+    <circle cx="150" cy="350" r="2" fill="#ffffff" />
+    <circle cx="200" cy="300" r="2" fill="#ffffff" />
+    <circle cx="250" cy="350" r="2" fill="#ffffff" />
+    <circle cx="300" cy="300" r="2" fill="#ffffff" />
+    <circle cx="350" cy="350" r="2" fill="#ffffff" />
+    <circle cx="400" cy="300" r="2" fill="#ffffff" />
+    <circle cx="450" cy="350" r="2" fill="#ffffff" />
+    <circle cx="500" cy="300" r="2" fill="#ffffff" />
+    <circle cx="550" cy="350" r="2" fill="#ffffff" />
+    <circle cx="600" cy="300" r="2" fill="#ffffff" />
+    <circle cx="650" cy="350" r="2" fill="#ffffff" />
+    <circle cx="700" cy="300" r="2" fill="#ffffff" />
+    <circle cx="750" cy="350" r="2" fill="#ffffff" />
+    <circle cx="800" cy="300" r="2" fill="#ffffff" />
+    <circle cx="850" cy="350" r="2" fill="#ffffff" />
+    <circle cx="900" cy="300" r="2" fill="#ffffff" />
+    <circle cx="950" cy="350" r="2" fill="#ffffff" />
+    <circle cx="1000" cy="300" r="2" fill="#ffffff" />
+    <circle cx="1050" cy="350" r="2" fill="#ffffff" />
+    <circle cx="1100" cy="300" r="2" fill="#ffffff" />
+    <circle cx="1150" cy="350" r="2" fill="#ffffff" />
+    
+    <circle cx="100" cy="400" r="2" fill="#ffffff" />
+    <circle cx="150" cy="450" r="2" fill="#ffffff" />
+    <circle cx="200" cy="400" r="2" fill="#ffffff" />
+    <circle cx="250" cy="450" r="2" fill="#ffffff" />
+    <circle cx="300" cy="400" r="2" fill="#ffffff" />
+    <circle cx="350" cy="450" r="2" fill="#ffffff" />
+    <circle cx="400" cy="400" r="2" fill="#ffffff" />
+    <circle cx="450" cy="450" r="2" fill="#ffffff" />
+    <circle cx="500" cy="400" r="2" fill="#ffffff" />
+    <circle cx="550" cy="450" r="2" fill="#ffffff" />
+    <circle cx="600" cy="400" r="2" fill="#ffffff" />
+    <circle cx="650" cy="450" r="2" fill="#ffffff" />
+    <circle cx="700" cy="400" r="2" fill="#ffffff" />
+    <circle cx="750" cy="450" r="2" fill="#ffffff" />
+    <circle cx="800" cy="400" r="2" fill="#ffffff" />
+    <circle cx="850" cy="450" r="2" fill="#ffffff" />
+    <circle cx="900" cy="400" r="2" fill="#ffffff" />
+    <circle cx="950" cy="450" r="2" fill="#ffffff" />
+    <circle cx="1000" cy="400" r="2" fill="#ffffff" />
+    <circle cx="1050" cy="450" r="2" fill="#ffffff" />
+    <circle cx="1100" cy="400" r="2" fill="#ffffff" />
+    <circle cx="1150" cy="450" r="2" fill="#ffffff" />
+    
+    <circle cx="100" cy="500" r="2" fill="#ffffff" />
+    <circle cx="150" cy="550" r="2" fill="#ffffff" />
+    <circle cx="200" cy="500" r="2" fill="#ffffff" />
+    <circle cx="250" cy="550" r="2" fill="#ffffff" />
+    <circle cx="300" cy="500" r="2" fill="#ffffff" />
+    <circle cx="350" cy="550" r="2" fill="#ffffff" />
+    <circle cx="400" cy="500" r="2" fill="#ffffff" />
+    <circle cx="450" cy="550" r="2" fill="#ffffff" />
+    <circle cx="500" cy="500" r="2" fill="#ffffff" />
+    <circle cx="550" cy="550" r="2" fill="#ffffff" />
+    <circle cx="600" cy="500" r="2" fill="#ffffff" />
+    <circle cx="650" cy="550" r="2" fill="#ffffff" />
+    <circle cx="700" cy="500" r="2" fill="#ffffff" />
+    <circle cx="750" cy="550" r="2" fill="#ffffff" />
+    <circle cx="800" cy="500" r="2" fill="#ffffff" />
+    <circle cx="850" cy="550" r="2" fill="#ffffff" />
+    <circle cx="900" cy="500" r="2" fill="#ffffff" />
+    <circle cx="950" cy="550" r="2" fill="#ffffff" />
+    <circle cx="1000" cy="500" r="2" fill="#ffffff" />
+    <circle cx="1050" cy="550" r="2" fill="#ffffff" />
+    <circle cx="1100" cy="500" r="2" fill="#ffffff" />
+    <circle cx="1150" cy="550" r="2" fill="#ffffff" />
+  </g>
+</svg>

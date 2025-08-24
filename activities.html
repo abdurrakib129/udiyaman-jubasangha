@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udiyaman Jubasangha - Activities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Udiyaman Jubasangha Logo">
+                <h1>উদীয়মান যুবসংঘ</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+               <ul class="nav-menu">
+                    <li><a href="index.html">প্রথম পাতা</a></li>
+                    <li><a href="about.html">পরিচিতি</a></li>
+                    <li><a href="activities.html">কর্মকাণ্ড</a></li>
+                    <li><a href="members.html">সদস্যবৃন্দ</a></li>
+                    <li><a href="contact.html">যোগাযোগ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h2>Our Activities</h2>
+            <p>Past and upcoming events and initiatives</p>
+        </div>
+    </section>
+
+    <section class="activities-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+                <button class="filter-btn" data-filter="past">Past</button>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
+                    <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activities-showcase">
+        <div class="container">
+            <div class="activities-grid" id="activities-container">
+                <!-- Upcoming Activities -->
+                <div class="activity-card upcoming">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Upcoming Activity 1">
+                        <div class="activity-tag upcoming-tag">Upcoming</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Annual Youth Conference</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> August 15-16, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Community Center Hall</p>
+                        <p>A two-day conference bringing together youth from different backgrounds to discuss community challenges and collaborative solutions.</p>
+                        <div class="activity-details">
+                            <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
+                            <p><strong>Registration:</strong> Open until August 10</p>
+                            <p><strong>Contact:</strong> events@udiyamanjubasangha.org</p>
+                        </div>
+                        <a href="#" class="btn btn-sm">Register Now</a>
+                    </div>
+                </div>
+
+                <div class="activity-card upcoming">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Upcoming Activity 2">
+                        <div class="activity-tag upcoming-tag">Upcoming</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Environmental Awareness Campaign</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> July 22, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> City Park</p>
+                        <p>Join us for a day of environmental education, tree planting, and community cleanup to promote sustainable practices.</p>
+                        <div class="activity-details">
+                            <p><strong>Time:</strong> 8:00 AM - 2:00 PM</p>
+                            <p><strong>Registration:</strong> Open until July 20</p>
+                            <p><strong>Contact:</strong> environment@udiyamanjubasangha.org</p>
+                        </div>
+                        <a href="#" class="btn btn-sm">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Past Activities -->
+                <div class="activity-card past">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Past Activity 1">
+                        <div class="activity-tag past-tag">Past</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Community Cleanup Drive</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> June 15, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Riverside Area</p>
+                        <p>Our members organized a successful cleanup drive in the local community, collecting over 100 bags of waste and recyclables.</p>
+                        <div class="activity-gallery">
+                            <img src="images/cleanup1.jpg" alt="Cleanup Image 1" id="placeholder-img">
+                            <img src="images/cleanup2.jpg" alt="Cleanup Image 2" id="placeholder-img">
+                            <img src="images/cleanup3.jpg" alt="Cleanup Image 3" id="placeholder-img">
+                        </div>
+                        <a href="#" class="btn btn-sm">View Gallery</a>
+                    </div>
+                </div>
+
+                <div class="activity-card past">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Past Activity 2">
+                        <div class="activity-tag past-tag">Past</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Youth Leadership Workshop</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> May 28, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Community Center</p>
+                        <p>A two-day workshop focused on developing leadership skills, communication, and team-building among young community members.</p>
+                        <div class="activity-gallery">
+                            <img src="images/workshop1.jpg" alt="Workshop Image 1" id="placeholder-img">
+                            <img src="images/workshop2.jpg" alt="Workshop Image 2" id="placeholder-img">
+                            <img src="images/workshop3.jpg" alt="Workshop Image 3" id="placeholder-img">
+                        </div>
+                        <a href="#" class="btn btn-sm">View Gallery</a>
+                    </div>
+                </div>
+
+                <div class="activity-card past">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Past Activity 3">
+                        <div class="activity-tag past-tag">Past</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Educational Support Program</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> April 10, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Local Schools</p>
+                        <p>Providing educational materials and mentoring to underprivileged students in our community to support their academic journey.</p>
+                        <div class="activity-gallery">
+                            <img src="images/education1.jpg" alt="Education Image 1" id="placeholder-img">
+                            <img src="images/education2.jpg" alt="Education Image 2" id="placeholder-img">
+                            <img src="images/education3.jpg" alt="Education Image 3" id="placeholder-img">
+                        </div>
+                        <a href="#" class="btn btn-sm">View Gallery</a>
+                    </div>
+                </div>
+
+                <div class="activity-card past">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Past Activity 4">
+                        <div class="activity-tag past-tag">Past</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Health Awareness Camp</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> March 5, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> Community Health Center</p>
+                        <p>A free health checkup camp organized in collaboration with local healthcare providers, benefiting over 200 community members.</p>
+                        <div class="activity-gallery">
+                            <img src="images/health1.jpg" alt="Health Camp Image 1" id="placeholder-img">
+                            <img src="images/health2.jpg" alt="Health Camp Image 2" id="placeholder-img">
+                            <img src="images/health3.jpg" alt="Health Camp Image 3" id="placeholder-img">
+                        </div>
+                        <a href="#" class="btn btn-sm">View Gallery</a>
+                    </div>
+                </div>
+
+                <div class="activity-card past">
+                    <div class="activity-image">
+                        <img src="images/activity-placeholder.svg" alt="Past Activity 5">
+                        <div class="activity-tag past-tag">Past</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Cultural Festival</h3>
+                        <p class="activity-date"><i class="far fa-calendar-alt"></i> February 18, 2023</p>
+                        <p class="activity-location"><i class="fas fa-map-marker-alt"></i> City Auditorium</p>
+                        <p>A celebration of local culture and traditions through performances, exhibitions, and interactive sessions, fostering community unity.</p>
+                        <div class="activity-gallery">
+                            <img src="images/cultural1.jpg" alt="Cultural Festival Image 1" id="placeholder-img">
+                            <img src="images/cultural2.jpg" alt="Cultural Festival Image 2" id="placeholder-img">
+                            <img src="images/cultural3.jpg" alt="Cultural Festival Image 3" id="placeholder-img">
+                        </div>
+                        <a href="#" class="btn btn-sm">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-involved">
+        <div class="container">
+            <div class="involved-content">
+                <h2>Want to Get Involved?</h2>
+                <p>Join us in our upcoming activities and be part of the positive change in our community.</p>
+                <div class="involved-buttons">
+                    <a href="contact.html" class="btn">Contact Us</a>
+                    <a href="members.html" class="btn btn-outline">Join Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Udiyaman Jubasangha Logo">
+                    <h2>উদীয়মান যুবসংঘ</h2>
+                    <p>একতা, সততা ও মানবতায় আমাদের লক্ষ্য</p>
+                </div>
+                <div class="footer-links">
+                    <h3>অন্যান্য পাতা</h3>
+                    <ul>
+                        <li><a href="index.html">প্রথম পাতা</a></li>
+                        <li><a href="about.html">পরিচিতি</a></li>
+                        <li><a href="activities.html">কর্মকাণ্ড</a></li>
+                        <li><a href="members.html">সদস্যবৃন্দ</a></li>
+                        <li><a href="contact.html">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>আমাদের ঠিকানা</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> ফজেরের মোড়, বাগমারা, রাজশাহী</p>
+                    <p><i class="fas fa-phone"></i> ০১৭০৪-২৯১৭৫৩</p>
+                    <p><i class="fas fa-envelope"></i> udiyamanjubasangha@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>যুক্ত থাকুন</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/udiyaaman/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/abdurrakib129"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/udiyaaman/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rakib129/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Udiyaman Jubasangha. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

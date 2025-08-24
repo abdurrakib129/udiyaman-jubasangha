@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#1e1e1e" />
+  
+  <!-- Decorative Elements -->
+  <rect x="50" y="50" width="400" height="300" stroke="#6a3de8" stroke-width="2" fill="none" opacity="0.3" />
+  
+  <!-- Abstract Group Icon -->
+  <circle cx="150" cy="150" r="30" fill="#333" />
+  <circle cx="220" cy="150" r="30" fill="#333" />
+  <circle cx="290" cy="150" r="30" fill="#333" />
+  <circle cx="360" cy="150" r="30" fill="#333" />
+  
+  <circle cx="185" cy="220" r="30" fill="#333" />
+  <circle cx="255" cy="220" r="30" fill="#333" />
+  <circle cx="325" cy="220" r="30" fill="#333" />
+  
+  <circle cx="220" cy="290" r="30" fill="#333" />
+  <circle cx="290" cy="290" r="30" fill="#333" />
+  
+  <!-- Text -->
+  <text x="250" y="370" font-family="Arial, sans-serif" font-size="16" fill="#b0b0b0" text-anchor="middle">About Us Image</text>
+</svg>

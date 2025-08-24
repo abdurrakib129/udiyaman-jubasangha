@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#1e1e1e" />
+  
+  <!-- Abstract User Icon -->
+  <circle cx="150" cy="100" r="50" fill="#333" />
+  <path d="M70 230 Q150 180, 230 230" stroke="#333" stroke-width="60" fill="none" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="150" r="120" stroke="#6a3de8" stroke-width="2" fill="none" opacity="0.3" />
+  <circle cx="150" cy="150" r="100" stroke="#6a3de8" stroke-width="2" fill="none" opacity="0.2" />
+  
+  <!-- Text -->
+  <text x="150" y="270" font-family="Arial, sans-serif" font-size="14" fill="#b0b0b0" text-anchor="middle">Team Member</text>
+</svg>
